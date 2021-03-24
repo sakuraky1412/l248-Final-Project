@@ -9,8 +9,8 @@
 import pickle
 import numpy as np
 import pandas as pd
-from criticalnet import draw_net, nx
-from criticalnet.data.sample import tanmay_images
+from criticalnet.criticalnet import draw_net, nx
+from criticalnet.criticalnet.data.sample import tanmay_images
 import cv2
 from matplotlib import pyplot as plt
 from sklearn import manifold

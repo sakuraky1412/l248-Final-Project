@@ -8,7 +8,8 @@ _image = {'baboon': 'baboon.png',
           'lenna': 'lenna.png'}
 
 data_dir = pkg_resources.resource_filename('criticalnet', '/data/test/')
-tanmay_dir = 'criticalnet/data/tanmay/'
+# tanmay_dir = 'criticalnet/data/tanmay/'
+tanmay_dir = 'criticalnet/data/Images_403/'
 
 def sample(name='baboon'):
     return imread('{}{}'.format(data_dir,_image[name]), pilmode='F')
